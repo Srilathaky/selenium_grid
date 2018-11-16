@@ -1,0 +1,12 @@
+1.Open Command Prompt from the PC where we want to make it as hub:
+D:\srilatha\Software\selenium>java -jar D:\srilatha\Software\selenium\selenium-server-standalone-3.5.0.jar -role hub
+		1.Note:Place the selenium standalone jar in one folder and run the above command.
+		2.Its not required to keep the browser exex in the hub but we need to keep the browser exex and the
+		selenium jar in node machine in same folder.
+
+2.Runt the below command in the node machine
+	D:\srilatha\Software\selenium>java -jar D:\srilatha\Software\selenium\selenium-server-standalone-3.5.0.jar -role webdriver -hub 
+http://172.25.3.25:4444/grid/register -port 5555
+
+
+Note:This is the hub IP.http://172.25.3.25:4444/grid/register
