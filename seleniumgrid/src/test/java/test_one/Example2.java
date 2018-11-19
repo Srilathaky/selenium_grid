@@ -12,7 +12,7 @@ import utility.BrowserOperation;
 import utility.ScreenShot;
 
 public class Example2 extends TestConfig {
-	@Test(enabled=true)
+	@Test(enabled=false)
 	// @Parameters({ "browser1", "runmode" })
 	public void test3() throws InterruptedException, IOException {
 		WebDriver driver = super.driver;

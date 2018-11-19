@@ -8,11 +8,14 @@
 			<class name="test_one.Example1"></class>
 		</classes>
 	</test> <!-- Test -->
+	<!-- <test name="Test2"> <parameter name="runmode" value="local"></parameter> 
+		<parameter name="browser" value="firefox"></parameter> <classes> <class name="test_one.Example2"></class> 
+		</classes> </test> --><!-- Test -->
 	<test name="Test2">
-		<parameter name="runmode" value="local"></parameter>
+		<parameter name="runmode" value="remote"></parameter>
 		<parameter name="browser" value="firefox"></parameter>
 		<classes>
-			<class name="test_one.Example2"></class>
+			<class name="test_one.Example1"></class>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
