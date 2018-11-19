@@ -14,3 +14,5 @@ Note:This is the hub IP.http://172.25.3.25:4444/grid/register
 
 //To set up for firefox browsers machine as node
 java -jar selenium-server-standalone-3.5.0.jar -role node -hub http://172.25.3.25:8888/grid/register -port 6666 -browser browserName=firefox
+
+to updated branch
